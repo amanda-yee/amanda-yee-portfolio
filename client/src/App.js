@@ -1,10 +1,19 @@
 import Header from './components/Header';
-import './App.css';
+import Intro from './components/Intro';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
+// import './App.css';
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <Header />
+
+      <Intro />
+
+      <Contact />
+      <Footer/>
     </div>
   );
 }
