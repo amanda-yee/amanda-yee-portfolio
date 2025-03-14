@@ -27,6 +27,7 @@
   a:hover {
     text-decoration: underline;
   }
+
 /* 
   h1 {
     font-weight: 700; 
@@ -35,6 +36,39 @@
 
 @layer components {
   .header {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
+    display: flex;
+    align-items: center; /* centers items vertically */
+    justify-content: space-between; /* places items as far apart as possible */
+    height: 75px;
   }
+
+  .header-list {
+    list-style: none; /* remove bullet points */
+    display: flex; /* display items in a row */
+    gap: 25px;
+  }
+
+  .intro {
+    /* background-color: lightblue; */
+    margin-left: 20%;
+  }
+}
+
+/* diagonal fade in animation */
+@keyframes diagonalFadeIn {
+  0% {
+    opacity: 0;
+    transform: translate(-2%, -2%); /* fade in position */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0); /* end at normal position */
+  }
+}
+
+/* apply animation to the target element */
+.fade-in-diagonal {
+  animation: diagonalFadeIn 0.75s ease-out forwards;
+  opacity: 50%; 
 }

@@ -3,9 +3,10 @@ const Header = () => {
       <header className="header">
         amanda yee
 
-        <ul>
+        <ul className="header-list">
             <li>about</li>
             <li>projects</li>
+            <li>film</li>
             <li>contact</li>
         </ul>
 
