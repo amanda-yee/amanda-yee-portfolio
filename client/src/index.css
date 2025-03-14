@@ -8,7 +8,9 @@
 @layer base {
   :root {
     --primary-color: #556B2F;
-    --background-color: #f0f0f0;
+    --secondary-color: #B22F6B;
+    --third-color: #D1849D;
+    --background-color: #f8f8f8;
   }
   
   body {
@@ -28,13 +30,23 @@
     text-decoration: underline;
   }
 
-/* 
-  h1 {
-    font-weight: 700; 
-  } */
+  .font-l {
+    font-size: 30px; 
+  }
+
+  .font-xl {
+    font-size: 48px; 
+  }
 }
 
 @layer components {
+  .container {
+    height: 95vh; /* 95% of the viewport height */
+    display: flex;
+    flex-direction: column; 
+    /* stack items vertically */
+  }
+
   .header {
     /* background-color: lightgrey; */
     display: flex;
@@ -43,15 +55,20 @@
     height: 75px;
   }
 
-  .header-list {
+  .list {
     list-style: none; /* remove bullet points */
     display: flex; /* display items in a row */
     gap: 25px;
   }
 
   .intro {
-    /* background-color: lightblue; */
-    margin-left: 20%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: lightblue;
   }
 }
 
@@ -70,5 +87,24 @@
 /* apply animation to the target element */
 .fade-in-diagonal {
   animation: diagonalFadeIn 0.75s ease-out forwards;
+  opacity: 50%; 
+}
+
+
+/* top down fade in animation */
+@keyframes topDownFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%); /* fade in position */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* end at normal position */
+  }
+}
+
+/* apply animation to the target element */
+.fade-in-topdown {
+  animation: topDownFadeIn 0.75s ease-out forwards;
   opacity: 50%; 
 }

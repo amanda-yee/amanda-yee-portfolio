@@ -1,14 +1,14 @@
 const Header = () => {
     return (
       <header className="header">
-        amanda yee
-
-        <ul className="header-list">
+        <ul className="list">
+            <li>home</li>
             <li>about</li>
             <li>projects</li>
             <li>film</li>
             <li>contact</li>
         </ul>
+        <h3>amanda yee</h3>
       </header>
     );
 };
