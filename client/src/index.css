@@ -55,10 +55,16 @@
 }
 
 @layer components {
-  .container {
+  #home {
     height: 95vh; /* 95% of the viewport height */
     display: flex;
     flex-direction: column; /* stack items vertically */
+  }
+
+  .film-pics {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
   }
 
   .header {
@@ -104,7 +110,7 @@
 
 /* apply animation to the target element */
 .fade-in-diagonal {
-  animation: diagonalFadeIn 0.75s ease-out forwards;
+  animation: diagonalFadeIn 1s ease-out forwards;
   opacity: 50%; 
 }
 
