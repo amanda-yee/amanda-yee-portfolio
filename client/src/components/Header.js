@@ -9,7 +9,6 @@ const Header = () => {
             <li>film</li>
             <li>contact</li>
         </ul>
-
       </header>
     );
 };
