@@ -13,9 +13,11 @@ const Intro = () => {
           based in brooklyn, new york.
         </div>
 
-        <button>
-            resume
-        </button>
+        <div>
+          <button>
+              resume
+          </button>
+        </div>
 
       </div>
     );

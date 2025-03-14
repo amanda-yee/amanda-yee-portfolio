@@ -21,6 +21,21 @@
     margin-right: 5%;
   }
 
+  button {
+    font-family: inherit;  /* inherit font family and size from parent element */
+    font-size: inherit;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: var(--third-color);
+  }
+
   a {
     text-decoration: none;
     color: var(--primary-color);
@@ -43,8 +58,7 @@
   .container {
     height: 95vh; /* 95% of the viewport height */
     display: flex;
-    flex-direction: column; 
-    /* stack items vertically */
+    flex-direction: column; /* stack items vertically */
   }
 
   .header {
@@ -63,12 +77,16 @@
 
   .intro {
     display: flex;
-    align-items: center; 
-    justify-content: space-between;
-    
+    flex-direction: column;
+    /* align-items: center; 
+    justify-content: space-between; */
     padding-left: 10%;
     padding-right: 10%;
-    background-color: lightblue;
+    gap: 75px;
+  }
+
+  .bg-color {
+    background-color: var(--third-color);
   }
 }
 
