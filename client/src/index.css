@@ -1,13 +1,194 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+/* Set base defaults */
+@layer base {
+  :root {
+    --primary-color: #556B2F;
+    --secondary-color: #B22F6B;
+    --third-color: #D1849D;
+    --background-color: #f7f7f7;
+    --lighter-grey: #ebebeb;
+    --light-grey: #e0e0e0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    margin: 0 2% 1% 2%; /* top right bottom left */
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    font-family: inherit;  /* inherit font family and size from parent element */
+    font-size: inherit;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: var(--third-color);
+  }
+
+  
+
+  .font-bold {
+    font-weight: bold;
+  }
+
+  .font-s {
+    font-size: 14px; 
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  #home {
+    height: 95vh; /* 95% of the viewport height */
+    display: flex;
+    flex-direction: column; /* stack items vertically */
+  }
+
+  .film-pics {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center; /* centers items vertically */
+    justify-content: space-between; /* places items as far apart as possible */
+    height: 75px;
+    border-bottom: 2px solid var(--primary-color);
+  }
+
+  .footer {
+    text-align: right;
+  }
+
+  .list {
+    list-style: none; /* remove bullet points */
+    display: flex; /* display items in a row */
+    gap: 25px;
+    padding: 0;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 75px;
+
+  }
+
+  .bg-color {
+    background-color: var(--third-color);
+  }
+
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 45%;
+    max-width: 550px;
+    height: auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    padding: 1%;
+    gap: 20px;
+    background-color: var(--lighter-grey);
+  }
+
+  .project-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .project:hover {
+    background-color: var(--light-grey);
+    cursor: pointer;
+  }
+
+  .buttons-code-website {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .under-construction {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 5px;
+    text-align: center;
+  }
+}
+
+.custom-heading {
+  @apply font-bold text-2xl pt-4 pb-4;
+}
+
+/* diagonal fade in animation */
+@keyframes diagonalFadeIn {
+  0% {
+    opacity: 0;
+    transform: translate(-2%, -2%); /* fade in position */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0); /* end at normal position */
+  }
+}
+
+/* apply animation to the target element */
+.fade-in-diagonal {
+  animation: diagonalFadeIn 1.25s ease-out forwards;
+  opacity: 50%; 
+}
+
+
+/* top down fade in animation */
+@keyframes topDownFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%); /* fade in position */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* end at normal position */
+  }
+}
+
+/* apply animation to the target element */
+.fade-in-topdown {
+  animation: topDownFadeIn 0.75s ease-out forwards;
+  opacity: 50%; 
 }
