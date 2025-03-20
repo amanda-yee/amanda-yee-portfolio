@@ -17,7 +17,7 @@ function App() {
 
       <div id="projects">
         <div className="custom-heading">selected projects</div>
-        <div class="project-container">
+        <div className="project-container">
           <ProjectCard 
             title="Southside Badminton Club" 
             year="2025"
@@ -29,7 +29,7 @@ function App() {
           <ProjectCard 
             title="Inside Edit" 
             year="2025" 
-            desc="Revamping the website for a New York based interior designer."
+            desc="Project starting soon - revamping the website for a New York based interior designer."
             imgSrc="/media/wip-screenshot.png"
             codeLink=""
             websiteLink=""

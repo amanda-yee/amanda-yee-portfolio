@@ -11,7 +11,7 @@ const Header = () => {
               <li><a href="#film">film</a></li>
               <li><a href="#contact">contact</a></li>
           </ul>
-          <h3>amanda yee</h3>
+          <p className="font-bold">amanda yee</p>
         </div>
       </header>
     );
