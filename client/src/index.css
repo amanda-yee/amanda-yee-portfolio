@@ -31,7 +31,7 @@
   a:hover {
     text-decoration: underline;
   }
-  
+
   button {
     font-family: inherit;  /* inherit font family and size from parent element */
     font-size: inherit;
@@ -46,8 +46,6 @@
   button:hover {
     background-color: var(--third-color);
   }
-
-  
 
   .font-bold {
     font-weight: bold;
@@ -77,7 +75,7 @@
     align-items: center; /* centers items vertically */
     justify-content: space-between; /* places items as far apart as possible */
     height: 75px;
-    border-bottom: 2px solid var(--primary-color);
+    /* border-bottom: 2px solid var(--primary-color); */
   }
 
   .footer {

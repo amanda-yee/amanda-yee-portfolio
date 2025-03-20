@@ -5,11 +5,6 @@ const Contact = () => {
       <div className="">
         <ul className="list">
             <li>
-                <a href="mailto: amandakyee@gmail.com">
-                    <EnvelopeIcon />
-                </a>
-            </li>
-            <li>
                 <a href="https://www.linkedin.com/in/amanda-yee/" target="_blank" rel="noopener noreferrer">
                     <LinkedInIcon /> 
                 </a>
@@ -19,11 +14,12 @@ const Contact = () => {
                     <GithubIcon />
                 </a>
             </li>
-            
-
-            
+            <li>
+                <a href="mailto: amandakyee@gmail.com">
+                    <b>amandakyee@gmail.com</b>
+                </a>
+            </li>
         </ul>
-        
       </div>
     );
 };
