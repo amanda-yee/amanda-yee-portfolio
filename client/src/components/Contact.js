@@ -1,4 +1,4 @@
-import { GithubIcon, LinkedInIcon, EnvelopeIcon } from "./Icons";
+import { GithubIcon, LinkedInIcon } from "./Icons";
 
 const Contact = () => {
     return (
