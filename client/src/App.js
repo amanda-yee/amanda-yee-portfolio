@@ -1,11 +1,11 @@
+import './App.css';
+
 import Header from './components/Header';
 import Intro from './components/Intro';
 import ProjectCard from './components/ProjectCard';
 import Film from './components/Film';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-
-// import './App.css';
 
 function App() {
   return (
@@ -16,12 +16,12 @@ function App() {
       </div>
 
       <div id="projects">
-        <h1>selected projects</h1>
+        <div className="custom-heading">selected projects</div>
         <div class="project-container">
           <ProjectCard 
             title="Southside Badminton Club" 
             year="2025"
-            desc="Revamped the website for a local, non-profit badminton club using React. The UI / UX has been refreshed with a clean, user-friendly interface and integrates with Google APIs for location and reviews."
+            desc="Revamped the website for a local non-profit badminton club using React, featuring a user-friendly interface and integration with Google APIs for location and reviews."
             imgSrc="/media/southside-screenshot.png"
             codeLink="https://github.com/amanda-yee/southside-badminton-club" 
             websiteLink="https://southsidebadmintonclub.netlify.app/"
@@ -37,12 +37,12 @@ function App() {
         </div>
       </div>
       <div id="film">
-        <h1>film</h1>
+        <div className="custom-heading">film</div>
         <Film />
       </div>
 
       <div id="contact">
-        <h1>get in touch</h1>
+        <div className="custom-heading">get in touch</div>
         <Contact />
       </div>
       <Footer/>
