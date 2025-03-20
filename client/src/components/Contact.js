@@ -1,7 +1,6 @@
 const Contact = () => {
     return (
       <div className="">
-        <h3>get in touch:</h3>
         <ul className="list">
             <li>
                 <a href="mailto: amandakyee@gmail.com">

@@ -10,15 +10,16 @@
     --primary-color: #556B2F;
     --secondary-color: #B22F6B;
     --third-color: #D1849D;
-    --background-color: #f8f8f8;
+    --background-color: #f7f7f7;
+    --lighter-grey: #ebebeb;
+    --light-grey: #e0e0e0;
   }
   
   body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--background-color);
     color: var(--primary-color);
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 5% 1% 5%; /* top right bottom left */
   }
 
   button {
@@ -45,6 +46,14 @@
     text-decoration: underline;
   }
 
+  .font-bold {
+    font-weight: bold;
+  }
+
+  .font-s {
+    font-size: 14px; 
+  }
+  
   .font-l {
     font-size: 30px; 
   }
@@ -63,29 +72,29 @@
 
   .film-pics {
     display: flex;
+    justify-content: center;
     gap: 20px;
     padding-top: 20px;
   }
 
   .header {
-    /* background-color: lightgrey; */
     display: flex;
     align-items: center; /* centers items vertically */
     justify-content: space-between; /* places items as far apart as possible */
     height: 75px;
+    border-bottom: 3px solid var(--primary-color);
   }
 
   .list {
     list-style: none; /* remove bullet points */
     display: flex; /* display items in a row */
     gap: 25px;
+    padding: 0;
   }
 
   .intro {
     display: flex;
     flex-direction: column;
-    /* align-items: center; 
-    justify-content: space-between; */
     padding-left: 10%;
     padding-right: 10%;
     gap: 75px;
@@ -93,6 +102,52 @@
 
   .bg-color {
     background-color: var(--third-color);
+  }
+
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 45%;
+    max-width: 550px;
+    height: 500px;
+    border: 3px solid var(--primary-color);
+    border-radius: 15px;
+    padding: 10px;
+    gap: 20px;
+    background-color: var(--lighter-grey);
+  }
+
+  .project-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .project:hover {
+    background-color: var(--light-grey);
+    cursor: pointer;
+  }
+
+  .buttons-code-website {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .under-construction {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 5px;
+    text-align: center;
   }
 }
 
