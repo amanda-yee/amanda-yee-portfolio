@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Intro from './components/Intro';
 import ProjectCard from './components/ProjectCard';
 import Film from './components/Film';
+import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -39,10 +40,15 @@ function App() {
         </div>
       </div>
 
-      {/* <div id="film" className="mx-[5%]">
+      <div id="about" className="mx-[5%]">
+        <div className="custom-heading">about</div>
+        <About />
+      </div>
+
+      <div id="film" className="mx-[5%]">
         <div className="custom-heading">film</div>
         <Film />
-      </div> */}
+      </div>
 
       <div id="contact" className="mx-[5%]">
         <div className="custom-heading">get in touch</div>
