@@ -1,5 +1,5 @@
 
-const ProjectCard = ({title="Project", year, desc, codeLink, websiteLink, imgSrc}) => {
+const ProjectCard = ({title="Project", desc, codeLink, websiteLink, imgSrc}) => {
 
     return (
       <div className="project">
@@ -14,12 +14,11 @@ const ProjectCard = ({title="Project", year, desc, codeLink, websiteLink, imgSrc
             </button>
         </div>
         
-        <div className="project-title">
-            <div className="font-bold">{title}</div> 
-            <div>{year}</div>
-        </div>
+        <div className="project-title font-bold">
+            {title}    
+        </div> 
 
-        <div className="font-s">
+        <div>
             {desc}
         </div>
 
