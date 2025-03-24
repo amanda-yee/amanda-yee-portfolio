@@ -2,26 +2,22 @@ const Intro = () => {
     return (
       <div className="intro fade-in-diagonal">
 
-        <div className="text-3xl">
+        <div className="text-6xl font-bold pb-8">hi, i'm amanda</div>
 
-          <h1 className="text-6xl font-bold pb-6">hi, i'm amanda</h1>
-        
+        <div className="text-4xl pb-8">
           website developer<br></br>
-          & data scientist<br></br>
-          <br></br>
+          & data scientist
+        </div>
+        <div className="text-2xl pb-8">
           based in brooklyn, new york.
         </div>
 
-        <div>
-          <a href="/amanda-yee-resume.pdf" target="_blank" rel="noopener noreferrer">
-            <button>
-              resume
-            </button>
-          </a>
-          
-          
-        </div>
-
+        <a href="/amanda-yee-resume.pdf" target="_blank" rel="noopener noreferrer">
+          <button>
+            resume
+          </button>
+        </a>
+        
       </div>
     );
 };
