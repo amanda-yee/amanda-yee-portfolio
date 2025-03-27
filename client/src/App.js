@@ -24,6 +24,11 @@ function App() {
         </div>
       </div>
 
+      <div id="about" className="mx-[5%]">
+        <div className="custom-heading">about</div>
+        <About />
+      </div>
+
       <div id="projects" className="mx-[5%]">
         <div className="custom-heading">selected projects</div>
         <div className="project-container">
@@ -44,10 +49,7 @@ function App() {
         </div>
       </div>
 
-      <div id="about" className="mx-[5%]">
-        <div className="custom-heading">about</div>
-        <About />
-      </div>
+      
 
       {/* <div id="film" className="mx-[5%]">
         <div className="custom-heading">film</div>
