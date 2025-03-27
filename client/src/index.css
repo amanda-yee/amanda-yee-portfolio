@@ -19,7 +19,6 @@
     font-family: 'Poppins', sans-serif;
     background-color: var(--background-color);
     color: var(--primary-color);
-    /* margin: 0 5% 1% 5%;  */
   }
 
   a {
@@ -43,14 +42,14 @@
   }
 
   button:hover {
-    background-color: var(--third-color);
+    background-color: var(--secondary-color);
+    color: var(--background-color)
   }
 }
 
 @layer components {
   #home {
-    min-height: 100vh; /* 100% of the viewport height */
-    /* background-image: url('/media/skyline.jpg'); */
+    min-height: 100vh;
   }
 
   .film-pics {
@@ -64,11 +63,7 @@
     align-items: center; /* centers items vertically */
     justify-content: space-between; /* places items as far apart as possible */
     height: 75px;
-    border-bottom: 2px solid var(--primary-color);
-  }
-
-  .footer {
-    text-align: right;
+    /* border-bottom: 2px solid var(--primary-color); */
   }
 
   .list {
@@ -98,15 +93,18 @@
   .project {
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
     width: 45%;
     max-width: 550px;
     height: auto;
-    /* border: 2px solid var(--primary-color); */
     border-radius: 15px;
     padding: 1%;
     gap: 20px;
     background-color: var(--lighter-grey);
+  }
+
+  .project:hover {
+    background-color: var(--light-grey);
+    cursor: pointer;
   }
 
   .project-title {
@@ -115,14 +113,8 @@
     justify-content: space-between;
   }
 
-  .project:hover {
-    background-color: var(--light-grey);
-    cursor: pointer;
-  }
-
   .buttons-code-website {
     display: flex;
-    /* flex-direction: column; */
     gap: 10px;
     justify-content: center;
   }
@@ -132,11 +124,29 @@
     color: var(--background-color);
     padding: 5px;
     text-align: center;
+    margin-left: 0;
   }
 }
 
 .custom-heading {
   @apply font-bold text-2xl pt-12 pb-4;
+}
+
+.contact-heading {
+  @apply font-bold text-2xl p-6
+}
+
+.about {
+  @apply flex gap-8 
+  /* justify-center items-center */
+}
+
+.contact {
+  @apply bg-[--light-grey] rounded-xl
+}
+
+.footer {
+  @apply text-right;
 }
 
 /* diagonal fade in animation */

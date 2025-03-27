@@ -18,7 +18,7 @@ const ProjectCard = ({title="Project", desc, codeLink, websiteLink, imgSrc}) => 
             {title}    
         </div> 
 
-        <div>
+        <div className="text-sm">
             {desc}
         </div>
 
