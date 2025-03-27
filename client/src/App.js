@@ -1,9 +1,10 @@
 import './App.css';
 
 import Header from './components/Header';
+import UnderConstruction from './components/UnderConstruction';
 import Intro from './components/Intro';
 import ProjectCard from './components/ProjectCard';
-import Film from './components/Film';
+// import Film from './components/Film';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -11,7 +12,10 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <div id="home" className="bg-skyline bg-cover bg-center h-screen">
+      <div>
+        <UnderConstruction />
+      </div>
+      <div id="home" className="bg-skyline bg-cover bg-center h-screen min-h-screen bg-fixed">
         <div className="mx-[5%]">
           <Header />
         </div>
@@ -25,7 +29,7 @@ function App() {
         <div className="project-container">
           <ProjectCard 
             title="Southside Badminton Club"
-            desc="Reworked the website for a local non-profit badminton club using React, featuring a user-friendly interface and integration with Google APIs for location and reviews."
+            desc="Reworked the website for a local non-profit badminton club using React, featuring a user-friendly interface and integration with Google APIs for location and reviews. Currently working with the client to replace their existing website with this version."
             imgSrc="/media/southside-screenshot.png"
             codeLink="https://github.com/amanda-yee/southside-badminton-club" 
             websiteLink="https://southsidebadmintonclub.netlify.app/"
@@ -45,16 +49,19 @@ function App() {
         <About />
       </div>
 
-      <div id="film" className="mx-[5%]">
+      {/* <div id="film" className="mx-[5%]">
         <div className="custom-heading">film</div>
         <Film />
-      </div>
+      </div> */}
 
-      <div id="contact" className="mx-[5%]">
-        <div className="custom-heading">get in touch</div>
+      <div id="contact" className="contact mx-[2%] mt-[5%] mb-[1%]">
+        <div className="contact-heading">get in touch</div>
         <Contact />
       </div>
-      <Footer/>
+
+      <div className="mx-[5%] mb-[1%]">
+        <Footer/>
+      </div>
 
     </div>
   );

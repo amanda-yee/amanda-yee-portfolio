@@ -3,7 +3,7 @@ import { GithubIcon, LinkedInIcon } from "./Icons";
 const Contact = () => {
     return (
       <div className="">
-        <ul className="list">
+        <ul className="list px-6 pb-6">
             <li>
                 <a href="https://www.linkedin.com/in/amanda-yee/" target="_blank" rel="noopener noreferrer">
                     <LinkedInIcon /> 
