@@ -1,9 +1,9 @@
 const About = () => {
     return (
-    <div className="about text-sm">
+    <div className="flex gap-8 text-sm">
         <div className="flex-1">
             <p className="text-xl">
-                I'm Amanda. <br></br>A web developer, data scientist, and problem solver.<br></br><br></br>
+                I'm Amanda. <br></br>New York based web developer, data scientist, and problem solver.<br></br><br></br>
             </p>
             <p>
                 My interest in coding began early on, unbeknownst to me. 
@@ -29,7 +29,6 @@ const About = () => {
                 My background in data science has sharpened my problem solving skills, <b>attention to detail</b>, and <b>ability to work through complexity</b>. 
                 I thrive in collaborative environments, love learning new technologies, and am always eager to take on new challenges. 
                 I'm excited to bring my technical expertise, creativity, and strong work ethic to a team where I can contribute and continue to grow as a developer.
-
             </p>
         </div>
 
@@ -40,7 +39,7 @@ const About = () => {
             <div className="flex justify-end">
                 <div className="flex flex-col items-end ">
                     <img src="/media/tally-creek.jpg" alt="tallebudgera creek" style={{ maxWidth: '65%', height: 'auto' }} />
-                    <p>My hometown - Gold Coast, Australia</p>
+                    <p className="pt-2">My hometown - Gold Coast, Australia</p>
                 </div>
             </div>
         </div>

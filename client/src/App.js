@@ -1,7 +1,6 @@
 import './App.css';
 
 import Header from './components/Header';
-import UnderConstruction from './components/UnderConstruction';
 import Intro from './components/Intro';
 import ProjectCard from './components/ProjectCard';
 // import Film from './components/Film';
@@ -12,11 +11,8 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <div>
-        <UnderConstruction />
-      </div>
-      <div id="home" className="bg-skyline bg-cover bg-center h-screen min-h-screen bg-fixed">
-        <div className="mx-[5%]">
+      <div id="home" className="bg-skyline bg-cover bg-center bg-fixed h-screen min-h-screen">
+        <div className="">
           <Header />
         </div>
         <div>
@@ -49,16 +45,19 @@ function App() {
         </div>
       </div>
 
-      
-
       {/* <div id="film" className="mx-[5%]">
         <div className="custom-heading">film</div>
         <Film />
       </div> */}
 
-      <div id="contact" className="contact mx-[2%] mt-[5%] mb-[1%]">
-        <div className="contact-heading">get in touch</div>
-        <Contact />
+      <div id="contact" className="bg-[--light-grey] rounded-xl mx-[2%] mt-[5%] mb-[1%]">
+        <div className="font-bold text-2xl p-6">
+          get in touch:
+        </div>
+        <div className="pb-6 px-6">
+          <Contact />
+        </div>
+        
       </div>
 
       <div className="mx-[5%] mb-[1%]">

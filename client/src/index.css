@@ -9,7 +9,6 @@
   :root {
     --primary-color: #000000;/*556B2F*/
     --secondary-color: #556B2F; /* #B22F6B */
-    --third-color: #D1849D;
     --background-color: #fafafa;
     --lighter-grey: #ebebeb;
     --light-grey: #e0e0e0;
@@ -48,23 +47,6 @@
 }
 
 @layer components {
-  /* #home {
-    min-height: 100vh;
-  } */
-
-  .film-pics {
-    display: flex;
-    gap: 20px;
-    padding-top: 20px;
-  }
-
-  .header {
-    display: flex;
-    align-items: center; /* centers items vertically */
-    justify-content: space-between; /* places items as far apart as possible */
-    height: 75px;
-    /* border-bottom: 2px solid var(--primary-color); */
-  }
 
   .list {
     list-style: none; /* remove bullet points */
@@ -73,15 +55,10 @@
     padding: 0;
   }
 
-  .intro {
-    display: flex;
-    flex-direction: column;
-    padding: 3% 10% 0% 10%;
-  }
-
   .project-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
   }
 
@@ -113,22 +90,6 @@
 
 .custom-heading {
   @apply font-bold text-2xl pt-12 pb-4;
-}
-
-.contact-heading {
-  @apply font-bold text-2xl p-6
-}
-
-.about {
-  @apply flex gap-8
-}
-
-.contact {
-  @apply bg-[--light-grey] rounded-xl
-}
-
-.footer {
-  @apply text-right;
 }
 
 /* diagonal fade in animation */
