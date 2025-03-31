@@ -1,3 +1,5 @@
+import Contact from './Contact';
+
 const About = () => {
     return (
     <div className="about text-sm">
@@ -31,6 +33,8 @@ const About = () => {
                 I'm excited to bring my technical expertise, creativity, and strong work ethic to a team where I can contribute and continue to grow as a developer.
 
             </p>
+            <br></br>
+            <Contact />
         </div>
 
         <div className="flex-1 flex flex-col gap-4">
@@ -40,7 +44,7 @@ const About = () => {
             <div className="flex justify-end">
                 <div className="flex flex-col items-end ">
                     <img src="/media/tally-creek.jpg" alt="tallebudgera creek" style={{ maxWidth: '65%', height: 'auto' }} />
-                    <p>My hometown - Gold Coast, Australia</p>
+                    <p className="pt-2">My hometown - Gold Coast, Australia</p>
                 </div>
             </div>
         </div>

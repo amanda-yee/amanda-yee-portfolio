@@ -49,15 +49,13 @@ function App() {
         </div>
       </div>
 
-      
-
       {/* <div id="film" className="mx-[5%]">
         <div className="custom-heading">film</div>
         <Film />
       </div> */}
 
       <div id="contact" className="contact mx-[2%] mt-[5%] mb-[1%]">
-        <div className="contact-heading">get in touch</div>
+        <div className="contact-heading">get in touch:</div>
         <Contact />
       </div>
 
