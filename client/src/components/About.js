@@ -1,11 +1,9 @@
-import Contact from './Contact';
-
 const About = () => {
     return (
     <div className="flex gap-8 text-sm">
         <div className="flex-1">
             <p className="text-xl">
-                I'm Amanda. <br></br>A web developer, data scientist, and problem solver.<br></br><br></br>
+                I'm Amanda. <br></br>New York based web developer, data scientist, and problem solver.<br></br><br></br>
             </p>
             <p>
                 My interest in coding began early on, unbeknownst to me. 
@@ -31,10 +29,7 @@ const About = () => {
                 My background in data science has sharpened my problem solving skills, <b>attention to detail</b>, and <b>ability to work through complexity</b>. 
                 I thrive in collaborative environments, love learning new technologies, and am always eager to take on new challenges. 
                 I'm excited to bring my technical expertise, creativity, and strong work ethic to a team where I can contribute and continue to grow as a developer.
-
             </p>
-            <br></br>
-            <Contact />
         </div>
 
         <div className="flex-1 flex flex-col gap-4">

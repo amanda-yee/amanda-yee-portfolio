@@ -1,3 +1,4 @@
+import UnderConstruction from './UnderConstruction';
 import React, { useState, useEffect } from 'react';
 
 const Header = () => {
@@ -11,7 +12,6 @@ const Header = () => {
         const currScrollY = window.scrollY;
 
         if (currScrollY < prevScrollY ) {
-          console.log("scrolling backwards");
           setShowHeader(true);
         } else {
           setShowHeader(false);
@@ -44,6 +44,10 @@ const Header = () => {
               {/* <li><a href="#film">film</a></li> */}
               <li><a href="#contact">contact</a></li>
           </ul>
+        </div>
+
+        <div>
+          <UnderConstruction/>
         </div>
 
         <div className="mr-[5%]">

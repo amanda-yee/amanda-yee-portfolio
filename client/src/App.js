@@ -1,7 +1,6 @@
 import './App.css';
 
 import Header from './components/Header';
-import UnderConstruction from './components/UnderConstruction';
 import Intro from './components/Intro';
 import ProjectCard from './components/ProjectCard';
 // import Film from './components/Film';
@@ -12,9 +11,6 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      {/* <div>
-        <UnderConstruction />
-      </div> */}
       <div id="home" className="bg-skyline bg-cover bg-center bg-fixed h-screen min-h-screen">
         <div className="">
           <Header />

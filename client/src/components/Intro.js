@@ -1,3 +1,5 @@
+import Contact from "./Contact";
+
 const Intro = () => {
     return (
       <div className="flex flex-col text-center fade-in-diagonal pt-20">
@@ -10,8 +12,8 @@ const Intro = () => {
           web developer <br></br>
           & data scientist
         </div>
-        <div className="text-2xl pb-8">
-          based in new york
+        <div className="flex justify-center pb-8">
+          <Contact />
         </div>
 
         <a href="/amanda-yee-resume.pdf" target="_blank" rel="noopener noreferrer">
