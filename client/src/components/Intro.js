@@ -1,6 +1,6 @@
 const Intro = () => {
     return (
-      <div className="flex flex-col text-center fade-in-diagonal">
+      <div className="flex flex-col text-center fade-in-diagonal pt-20">
 
         <div className="text-6xl font-bold pb-8">
           hi, i'm amanda

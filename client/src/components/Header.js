@@ -1,7 +1,7 @@
 const Header = () => {
     return (
-      <header className="flex items-center justify-between h-[75px] w-full bg-[#556B2F]">
-        <div className="">
+      <header className="fixed top-0 left-0 w-full flex items-center justify-between py-6 w-full">
+        <div className="ml-[5%]">
           <ul className="list fade-in-diagonal">
               <li><a href="#about">about</a></li>
               <li><a href="#projects">projects</a></li>
@@ -10,7 +10,7 @@ const Header = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="mr-[5%]">
           <a href="#home" className="font-bold fade-in-diagonal">amanda yee</a>
         </div>
 

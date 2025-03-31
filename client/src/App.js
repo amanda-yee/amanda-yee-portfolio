@@ -15,8 +15,8 @@ function App() {
       {/* <div>
         <UnderConstruction />
       </div> */}
-      <div id="home" className="bg-skyline bg-cover bg-center h-screen min-h-screen bg-fixed">
-        <div className="mx-[5%]">
+      <div id="home" className="bg-skyline bg-cover bg-center bg-fixed h-screen min-h-screen">
+        <div className="">
           <Header />
         </div>
         <div>
