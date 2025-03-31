@@ -2,8 +2,8 @@ import { EnvelopeIcon, GithubIcon, LinkedInIcon } from "./Icons";
 
 const Contact = () => {
     return (
-      <div className="">
-        <ul className="list px-6 pb-6">
+      <div>
+        <ul className="list">
             <li>
                 <a href="mailto: amandakyee@gmail.com">
                      <EnvelopeIcon />

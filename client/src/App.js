@@ -12,9 +12,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <div>
+      {/* <div>
         <UnderConstruction />
-      </div>
+      </div> */}
       <div id="home" className="bg-skyline bg-cover bg-center h-screen min-h-screen bg-fixed">
         <div className="mx-[5%]">
           <Header />
@@ -54,9 +54,14 @@ function App() {
         <Film />
       </div> */}
 
-      <div id="contact" className="contact mx-[2%] mt-[5%] mb-[1%]">
-        <div className="contact-heading">get in touch:</div>
-        <Contact />
+      <div id="contact" className="bg-[--light-grey] rounded-xl mx-[2%] mt-[5%] mb-[1%]">
+        <div className="font-bold text-2xl p-6">
+          get in touch:
+        </div>
+        <div className="pb-6 px-6">
+          <Contact />
+        </div>
+        
       </div>
 
       <div className="mx-[5%] mb-[1%]">

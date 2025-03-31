@@ -2,14 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* Set base defaults */
 @layer base {
   :root {
     --primary-color: #000000;/*556B2F*/
     --secondary-color: #556B2F; /* #B22F6B */
-    --third-color: #D1849D;
     --background-color: #fafafa;
     --lighter-grey: #ebebeb;
     --light-grey: #e0e0e0;
@@ -48,37 +47,12 @@
 }
 
 @layer components {
-  /* #home {
-    min-height: 100vh;
-  } */
-
-  .film-pics {
-    display: flex;
-    gap: 20px;
-    padding-top: 20px;
-  }
-
-  .header {
-    display: flex;
-    align-items: center; /* centers items vertically */
-    justify-content: space-between; /* places items as far apart as possible */
-    height: 75px;
-    /* border-bottom: 2px solid var(--primary-color); */
-  }
 
   .list {
     list-style: none; /* remove bullet points */
     display: flex; /* display items in a row */
     gap: 25px;
     padding: 0;
-  }
-
-  .intro {
-    /* font-family: 'Knewave', sans-serif; */
-    display: flex;
-    flex-direction: column;
-    /* padding: 3% 10% 0% 35%; */
-    text-align: center;
   }
 
   .project-container {
@@ -116,22 +90,6 @@
 
 .custom-heading {
   @apply font-bold text-2xl pt-12 pb-4;
-}
-
-.contact-heading {
-  @apply font-bold text-2xl p-6
-}
-
-.about {
-  @apply flex gap-8
-}
-
-.contact {
-  @apply bg-[--light-grey] rounded-xl
-}
-
-.footer {
-  @apply text-right;
 }
 
 /* diagonal fade in animation */

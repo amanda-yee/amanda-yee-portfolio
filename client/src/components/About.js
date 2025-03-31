@@ -2,7 +2,7 @@ import Contact from './Contact';
 
 const About = () => {
     return (
-    <div className="about text-sm">
+    <div className="flex gap-8 text-sm">
         <div className="flex-1">
             <p className="text-xl">
                 I'm Amanda. <br></br>A web developer, data scientist, and problem solver.<br></br><br></br>
