@@ -1,4 +1,4 @@
-import UnderConstruction from './UnderConstruction';
+// import UnderConstruction from './UnderConstruction';
 import React, { useState, useEffect } from 'react';
 
 const Header = () => {
@@ -45,10 +45,10 @@ const Header = () => {
               <li><a href="#contact">contact</a></li>
           </ul>
         </div>
-
+{/* 
         <div>
           <UnderConstruction/>
-        </div>
+        </div> */}
 
         <div className="mr-[5%]">
           <a href="#home" className="font-bold fade-in-diagonal">amanda yee</a>

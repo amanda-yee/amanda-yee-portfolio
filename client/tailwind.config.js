@@ -6,6 +6,9 @@ module.exports = {
       backgroundImage: {
         'skyline': "url('../public/media/skyline-bw.jpg')",
       },
+      fontFamily: {
+        custom: ['Gloria Hallelujah', 'serif'], 
+      },
     },
   },
   plugins: [],

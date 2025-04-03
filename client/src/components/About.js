@@ -15,15 +15,14 @@ const About = () => {
 
                 As time passed and society moved on to Facebook and Instagram, I completed my Bachelors degree and found my way into the data science field.
                 One of my favorite parts of my job is <b>coding and problem solving</b>. 
-                I love building end-to-end pipelines for my team, whether for feature engineering or machine learning. 
-                But, over time I felt like there was something missing.
+                I love building end-to-end pipelines for my team, whether for feature engineering or machine learning.
                 <br></br><br></br>
 
-                I took a step back and reflected on what I loved about my work, and to align my career more with my creative passions I pursued a MS in Software Development while continuing my full-time data science role
-                (during this, I found some creative outlets in film photography, crocheting, and sewing).
+                After 5 years in the field, I decided to pause and reflect on how I could better align my career with my creative passions. 
+                This led me to pursue a Master's in Software Development while continuing my full-time data science role.
                 <br></br><br></br>
 
-                Now, I'm freelancing, building websites for local businesses, and I'm excited to take the next step - fully pivoting into a career in web development!
+                Currently I'm freelancing part-time, building websites for local businesses, and I'm eager to take the next step - fully transitioning into a career in web development.
                 <br></br><br></br>
 
                 My background in data science has sharpened my problem solving skills, <b>attention to detail</b>, and <b>ability to work through complexity</b>. 
