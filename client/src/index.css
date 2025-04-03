@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Set base defaults */
 @layer base {
@@ -62,23 +62,6 @@
     gap: 20px;
   }
 
-  .project {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-    max-width: 550px;
-    height: auto;
-    border-radius: 15px;
-    padding: 1%;
-    gap: 20px;
-    background-color: var(--lighter-grey);
-  }
-
-  .project:hover {
-    background-color: var(--light-grey);
-    cursor: pointer;
-  }
-
   .under-construction {
     background-color: var(--primary-color);
     color: var(--background-color);
@@ -89,7 +72,7 @@
 }
 
 .custom-heading {
-  @apply font-bold text-2xl pt-12 pb-4;
+  @apply font-custom font-bold text-4xl pt-12 pb-4;
 }
 
 /* diagonal fade in animation */

@@ -4,11 +4,11 @@ const Intro = () => {
     return (
       <div className="flex flex-col text-center fade-in-diagonal pt-20">
 
-        <div className="text-6xl font-bold pb-8">
+        <div className="text-6xl font-bold pb-8 font-custom">
           hi, i'm amanda
         </div>
 
-        <div className="text-4xl pb-8">
+        <div className="text-4xl pb-8 font-custom">
           web developer <br></br>
           & data scientist
         </div>
