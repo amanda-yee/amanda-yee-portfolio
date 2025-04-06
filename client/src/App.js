@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <div id="home" className="bg-skyline bg-cover bg-center min-h-screen">
+      <div id="home" className="bg-skyline bg-cover bg-center h-screen min-h-screen">
         <div className="">
           <Header />
         </div>
