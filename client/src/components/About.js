@@ -1,14 +1,14 @@
 const About = () => {
     return (
-    <div className="flex gap-8">
-        <div className="flex-[3]">
-            <p className="text-xl pb-4">
+    <div className="lg:flex gap-8">
+        <div className="pb-4 lg:flex-[3]">
+            <p className="text-lg sm:text-xl pb-4">
                 I'm Amanda.
             </p>
-            <p className="text-xl pb-4">
+            <p className="text-lg sm:text-xl pb-4">
                 New York based web developer, data scientist, and problem solver.
             </p>
-            <p className="text-m">
+            <p className="text-sm sm:text-sm md:text-base">
                 I'm curious, love to learn, and am always eager to take on a new challenge.
                 My background in data science has sharpened my problem solving skills, attention to detail and ability to work through complexity. 
                 <br></br><br></br>  
@@ -21,8 +21,12 @@ const About = () => {
             </p>
         </div>
 
-        <div className="flex-[2] flex items-center justify-center">
-            <img src="/media/me-malaysia.jpg" alt="me in malaysia" style={{ maxWidth: '100%', height: 'auto' }} />
+        <div className="lg:flex-[2] flex items-center justify-center">
+            <img 
+                src="/media/me-malaysia.jpg" 
+                alt="me in malaysia" 
+                className="h-auto w-full sm:max-w-md"
+            />
         </div>
         
     </div>

@@ -37,7 +37,7 @@ const Header = () => {
           showHeader ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
       >
-        <div className="ml-[5%]">
+        <div className="ml-[5%] text-sm lg:text-base">
           <ul className="list fade-in-diagonal">
               <li><a href="#about">about</a></li>
               <li><a href="#projects">projects</a></li>
@@ -46,9 +46,9 @@ const Header = () => {
           </ul>
         </div>
 
-        <div>
+        {/* <div>
           <UnderConstruction/>
-        </div>
+        </div> */}
 
         <div className="mr-[5%]">
           <a href="#home" className="font-bold fade-in-diagonal">amanda yee</a>
