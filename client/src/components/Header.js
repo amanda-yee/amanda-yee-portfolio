@@ -11,7 +11,7 @@ const Header = () => {
       const handleScroll = () => {
         const currScrollY = window.scrollY;
 
-        if (currScrollY < prevScrollY ) {
+        if (currScrollY < prevScrollY || currScrollY === 0) {
           setShowHeader(true);
         } else {
           setShowHeader(false);
