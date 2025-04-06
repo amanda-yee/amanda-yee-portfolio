@@ -26,7 +26,9 @@ function App() {
       </div>
 
       <div id="projects" className="mx-[5%]">
-        <div className="custom-heading">selected projects</div>
+        <div className="custom-heading">
+          selected projects
+        </div>
         <div className="project-container">
           <ProjectCard 
             title="Southside Badminton Club"

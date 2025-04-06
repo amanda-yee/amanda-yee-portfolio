@@ -72,7 +72,7 @@
 }
 
 .custom-heading {
-  @apply font-custom font-bold text-4xl pt-12 pb-4;
+  @apply font-custom font-bold text-4xl pt-14 pb-6;
 }
 
 /* diagonal fade in animation */

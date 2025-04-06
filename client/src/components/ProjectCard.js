@@ -5,7 +5,7 @@ const ProjectCard = ({title="Project", desc, codeLink, websiteLink, imgSrc}) => 
       <div className="flex w-[45%] max-w-[650px] h-auto rounded-[15px] p-[1%] gap-5 bg-[var(--lighter-grey)] hover:bg-[var(--light-grey)] ">
         
         <div className="flex-[2]">
-            <img src={imgSrc} alt="website screenshot" style={{ width: '100%', height: 'auto', borderRadius: '15px' }}/>
+            <img src={imgSrc} alt="project logo" style={{ width: '100%', height: 'auto', borderRadius: '15px' }}/>
         </div>
         
         <div className="flex-[3] flex flex-col">
