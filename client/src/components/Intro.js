@@ -18,7 +18,7 @@ const Intro = () => {
 
         <a href="/amanda-yee-resume.pdf" target="_blank" rel="noopener noreferrer">
           <button>
-            resume
+            CV
           </button>
         </a>
         

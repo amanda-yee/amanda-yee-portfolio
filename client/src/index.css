@@ -46,33 +46,12 @@
   }
 }
 
-@layer components {
-
-  .list {
-    list-style: none; /* remove bullet points */
-    display: flex; /* display items in a row */
-    gap: 25px;
-    padding: 0;
-  }
-
-  .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .under-construction {
-    background-color: var(--primary-color);
-    color: var(--background-color);
-    padding: 5px;
-    text-align: center;
-    margin-left: 0;
-  }
+.list {
+  @apply list-none flex gap-[25px] p-0
 }
 
 .custom-heading {
-  @apply font-custom font-bold text-4xl pt-12 pb-4;
+  @apply font-custom font-bold text-4xl pt-14 pb-6;
 }
 
 /* diagonal fade in animation */
@@ -90,24 +69,5 @@
 /* apply animation to the target element */
 .fade-in-diagonal {
   animation: diagonalFadeIn 1.25s ease-out forwards;
-  opacity: 50%; 
-}
-
-
-/* top down fade in animation */
-@keyframes topDownFadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(-10%); /* fade in position */
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); /* end at normal position */
-  }
-}
-
-/* apply animation to the target element */
-.fade-in-topdown {
-  animation: topDownFadeIn 0.75s ease-out forwards;
   opacity: 50%; 
 }

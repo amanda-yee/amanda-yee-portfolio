@@ -26,8 +26,10 @@ function App() {
       </div>
 
       <div id="projects" className="mx-[5%]">
-        <div className="custom-heading">selected projects</div>
-        <div className="project-container">
+        <div className="custom-heading">
+          selected projects
+        </div>
+        <div className="flex flex-wrap xl:justify-center gap-5">
           <ProjectCard 
             title="Southside Badminton Club"
             desc="Reworked the website for a local non-profit badminton club using React, featuring a user-friendly interface and integration with Google APIs for location and reviews. Currently working with the client to replace their existing website with this version."
