@@ -13,8 +13,8 @@ const About = () => {
                 My background in data science has sharpened my problem solving skills, attention to detail and ability to work through complexity. 
                 <br></br><br></br>  
 
-                Outside of working as a data scientist, I'm also freelancing part-time to build websites for local businesses.
-                I'm eager to take the next step to fully transition into a career in web development.
+                Outside of working as a data scientist, I'm also freelancing part-time to build websites for local clients.
+                I'm motivated to take the next step to fully transition into a career in web development.
                 <br></br><br></br>
 
                 I'm excited to bring my technical expertise, creativity, and strong work ethic to a team where I can contribute and continue to grow as a developer.
