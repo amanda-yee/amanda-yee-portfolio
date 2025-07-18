@@ -32,7 +32,7 @@ function App() {
         <div className="flex flex-wrap xl:justify-center gap-5">
         <ProjectCard 
             title="Inside Edit"
-            desc="Project is current in progress - revamping the website for a New York based interior designer."
+            desc="Project is currently in progress - revamping the website for a New York based interior designer. Client-approved design mockups wree created in Figma. The site is built with React.js using the Next.js framework, styled with Tailwind CSS, and deployed via Vercel."
             imgSrc="/media/wip-logo.png"
             codeLink="https://github.com/amanda-yee/inside-edit"
             websiteLink="https://www.insideedit.com/testing"

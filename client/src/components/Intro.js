@@ -5,7 +5,7 @@ const Intro = () => {
       <div className="flex flex-col text-center fade-in-diagonal pt-20">
 
         <div className="text-6xl font-bold pb-8 font-custom">
-          hello, i'm amanda
+          hi, i'm amanda
         </div>
 
         <div className="text-4xl pb-8 font-custom">
