@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'skyline': "url('../public/media/skyline-bw.jpg')",
+        'skyline': "url('../public/media/skyline.jpg')",
       },
       fontFamily: {
         custom: ['Intel One Mono', 'serif'], 

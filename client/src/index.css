@@ -8,8 +8,8 @@
 /* Set base defaults */
 @layer base {
   :root {
-    --primary-color: #000000;/*556B2F*/
-    --secondary-color: #556B2F; /* #B22F6B */
+    --primary-color: #000000;
+    --secondary-color: #ADD8E6; /* 556B2F */
     --background-color: #fafafa;
     --lighter-grey: #ebebeb;
     --light-grey: #e0e0e0;
@@ -43,7 +43,7 @@
 
   button:hover {
     background-color: var(--secondary-color);
-    color: var(--background-color)
+    color: var(--primary-color)
   }
 }
 

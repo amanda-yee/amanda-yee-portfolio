@@ -10,7 +10,8 @@ const Intro = () => {
 
         <div className="text-4xl pb-8 font-custom">
           a web developer <br></br>
-          & data scientist
+          & data scientist <br></br> <br></br>
+          based in new york.
         </div>
         <div className="flex justify-center pb-8">
           <Contact />
@@ -18,7 +19,7 @@ const Intro = () => {
 
         <a href="/amanda-yee-resume.pdf" target="_blank" rel="noopener noreferrer">
           <button>
-            resume
+            view resume
           </button>
         </a>
         
