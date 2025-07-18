@@ -9,7 +9,7 @@ const Intro = () => {
         </div>
 
         <div className="text-3xl sm:text-4xl pb-8 font-custom">
-          a web developer <br></br>
+          software engineer <br></br>
           & data scientist <br></br> <br></br>
           based in new york.
         </div>
