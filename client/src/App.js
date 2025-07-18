@@ -4,8 +4,8 @@ import Header from './components/Header';
 import Intro from './components/Intro';
 import ProjectCard from './components/ProjectCard';
 // import Film from './components/Film';
-import About from './components/About';
-import Contact from './components/Contact';
+// import About from './components/About';
+// import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
