@@ -39,10 +39,9 @@ const Header = () => {
       >
         <div className="ml-[5%] text-sm lg:text-base">
           <ul className="list fade-in-diagonal">
-              <li><a href="#about">about</a></li>
-              <li><a href="#projects">projects</a></li>
-              {/* <li><a href="#film">film</a></li> */}
-              <li><a href="#contact">contact</a></li>
+              {/* <li><a href="#about">about</a></li> */}
+              <li><a href="#projects">jump to projects</a></li>
+              {/* <li><a href="#contact">contact</a></li> */}
           </ul>
         </div>
 
