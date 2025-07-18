@@ -5,11 +5,11 @@ const Intro = () => {
       <div className="flex flex-col text-center fade-in-diagonal pt-20">
 
         <div className="text-6xl font-bold pb-8 font-custom">
-          hi, i'm amanda
+          hello, i'm amanda
         </div>
 
         <div className="text-4xl pb-8 font-custom">
-          web developer <br></br>
+          a web developer <br></br>
           & data scientist
         </div>
         <div className="flex justify-center pb-8">
@@ -18,7 +18,7 @@ const Intro = () => {
 
         <a href="/amanda-yee-resume.pdf" target="_blank" rel="noopener noreferrer">
           <button>
-            CV
+            resume
           </button>
         </a>
         

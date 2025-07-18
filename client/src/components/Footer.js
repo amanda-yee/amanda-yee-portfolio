@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <footer className="text-right text-xs sm:text-sm">
+      <footer className="text-center text-xs sm:text-sm pt-6 ">
 
         <span>&copy; Amanda Yee 2025</span>
 
